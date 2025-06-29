@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:border-box;
+}
+
+.logo{
+    background-image: url(amzone\ logo.png);
+    height: 60px;
+    width: 100px;
+    background-size: cover;
+    color: #fcf9f9;
+    background-color: transparent;
+    
+     
+}
+.logobar{
+    height: 60px;
+    width: 100px;
+    margin: 10px;
+}
+.navbar{
+    background-color: rgba(15, 15, 15, 0.822);
+    color: rgb(88, 17, 17);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    
+    
+
+}
+.addressfirst{
+    height: 50px;
+    color: cornflowerblue;
+    margin: 10px;
+}
+.addressicon{
+    height: 50px;
+    color: aliceblue;
+}
+
+.searchbar{
+ display: flex;
+ border-radius: 4px;
+}
+.bar{
+    width: 500px;
+    height: 30px
+}
+.searchicon{
+    padding-right: 20px;
+    background-color: #ee9b1f;
+    color: black;
+    align-items: center;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+
+}
+.select1{
+    border-radius: 4px;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover { 
+    color: aliceblue;
+    border: 1.5px solid white;
+}
+.signin{
+    font-size: 20px;
+    color: white;
+}
+span{
+    font-size: 12px;
+
+}
+.account{
+    font-size: 18px;
+    font-weight: 700px;
+}
+.return{
+    font-size: 15px;
+color: white;
+}
+.span2{
+    font-size: 13px;
+}
+.return2{
+    font-size: 15px;
+    font-weight: 1000px;
+    
+}
+.cart1{
+    font-size: 25px;
+    color: white;
+
+}
+.carticon{
+    font-size: 25pxpx;
+    font-weight: 700px;
+}
+.pcart{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.panel{
+    height: 100px;
+    background-color: rgb(221, 128, 128);
+    color: white;
+   width: 1400px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.hero-section{
+    background-image: url(619geyiQI5L._SX3000_.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+.hero-portion{
+    height: 25px;
+    background-color: antiquewhite;
+    align-content: center;
+    justify-content: flex-end;
+    color: gold;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-portion p{
+   position: relative;
+    justify-content: end;
+}
+.boxes{
+   height: 600px;
+   width: 100%;
+   color: blue;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 30px;
+}
+.box1{
+    height: 331px;
+    width: 385px;
+    color: greenyellow;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+.box2{
+    height: 331px;
+    width: 400px;
+    background-color: rgb(50, 180, 104);
+    margin-right: 30px;
+    margin-left: 20px;
+    background-color: rgb(241, 147, 24);
+}
+.box3{
+    height: 331px;
+    width: 400px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.box4{
+    height: 331px;
+    width: 400px;
+    background-color: chartreuse;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.child1{
+    height: 280px;
+    width: 300px;
+    background-color: #c9841e;
+    background-image: url(HomeStorage_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+
+}
+
+.box1 p {
+    opacity: 100%;
+    font-size: 20px;
+    font-weight: 700px;
+    font-style: normal;
+    color: black;
+
+}
+.shownow1{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding-top: 0px;
+    padding-top: 290px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.child2{
+    height: 280px;
+    width: 300px;
+    background-color: #c9841e;
+    background-image: url(CleaningTool_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+
+}
+.box2 { 
+    height: 331px;
+    width: 385px;
+    color: greenyellow;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+.box2 p {
+    opacity: 100%;
+    font-size: 20px;
+    font-weight: 700px;
+    font-style: normal;
+    color: black;
+
+}
+.shownow2{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding-top: 0px;
+    padding-top: 290px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
